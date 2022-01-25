@@ -1,5 +1,26 @@
-.navbar{
-    width: 50%;
-    margin: 0 auto;
+body{
+    margin:0;
+    padding: 0;
 }
 
+html{
+    box-sizing: border-box;
+}
+.main-title{
+    margin:5% 0% 5% 0%;
+}
+
+.lead{
+    line-height:1.5;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#121212;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.3rem;
+}
+
+.main-image{
+    width:100%;
+    height: auto;
+}
