@@ -44,8 +44,16 @@ html {
 
 }
 
+.download-button{
+  width: 20%;
+  height:80px;
+  padding: 0;
+  background: #2a85f5;
+}
 
-
+.download-title{
+  font-family: 'Roboto Slab', serif;
+}
 
 /*media */
 /*media responsive main title */
