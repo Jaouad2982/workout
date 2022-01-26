@@ -10,7 +10,7 @@ html {
   line-height: 1.5;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link, .login-button{
   color: #121212;
   font-family: "Dongle", sans-serif;
   font-size: 1.3rem;
