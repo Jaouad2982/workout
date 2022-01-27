@@ -55,6 +55,47 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
+.choseUp{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choseUp h4, .choseUp h2{
+  padding-top: 3rem;;
+}
+
+.choseUp h4{
+  font-family: 'Arvo', serif;
+}
+
+.choseUp h2{
+  font-family: 'Prata', serif;
+  font-size: 4rem;
+}
+.choseUp p{
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  text-align: center;
+  margin:4rem 0 4rem 0;
+}
+
+.choseUS-btns button:hover{
+text-decoration: underline;
+}
+
+.choseUS-btns{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+
+
 /*media */
 /*media responsive main title */
 @media(max-width:763px){
