@@ -43,12 +43,19 @@ html {
   font-family: "Dongle", sans-serif;
 
 }
-
+.middle-bar{
+  width: 100%;
+}
 .download-button{
   width: 20%;
-  height:80px;
-  padding: 0;
+  height:3rem;
   background: #2a85f5;
+
+}
+
+.download-button:hover{
+  text-decoration: underline;
+
 }
 
 .download-title{
@@ -94,17 +101,69 @@ text-decoration: underline;
   width: 50%;
 }
 
+.revealer{
+  margin-top: 20rem;
+}
 
 
 /*media */
 /*media responsive main title */
 @media(max-width:763px){
-  body{
-    background-color: red;
-  }
   .main-title{
     position: relative;
     top: 35vh;
   }
 }
 
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      .choseUS-btns{
+        display: flex;
+        flex-direction: column;
+      }
+      .choseUS-btns button{
+        margin-top: 4rem;
+      }
+      .download-title{
+        line-height: 4rem;
+      }
+   }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .choseUS-btns, .middle-bar{
+    display: flex;
+    flex-direction: column;
+  }
+  .choseUS-btns button{
+    margin-top: 4rem;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .choseUS-btns{
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .choseUS-btns button{
+    margin-top: 4rem;
+  }
+  .middle-bar h1{
+    margin-bottom: 4rem;
+  }
+
+  .middle-bar button{
+    width: 100%;;
+  }
+}
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
