@@ -150,6 +150,29 @@ text-decoration: underline;
   margin-top:7rem;
 }
 
+.team-title{
+  margin: 3rem 0 3rem 0;
+}
+
+.carousel{
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+}
+
+.meet-team  img{
+  margin:5rem 0 5rem 0;
+  border-radius: 50% 20% / 10% 40%
+}
+
+.meet-team p {
+  margin:5rem 0 5rem 0;
+  line-height: 1.9;
+  text-indent: 1cm;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
 
 /*media */
 /*media responsive main title */
