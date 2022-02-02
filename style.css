@@ -173,8 +173,35 @@ text-decoration: underline;
 
 }
 
-.nutrition-img, nutrition-title{
-  margin-top: 7rem;
+.nutrition-img, .nutrition-title{
+  margin: 10rem 0 10rem 0;
+}
+
+
+/* .parallax */
+.parallax {
+  /* The image used */
+  background-image: url("images/parallex.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll-over-para{
+  height:1000px;
+  background-color:yellow;
+  font-size:36px;
+}
+
+.mem-choice{
+  border: 1px solid black;
+  border-radius:30px;
 }
 
 /*media */
