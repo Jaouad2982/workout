@@ -147,7 +147,7 @@ text-decoration: underline;
 .personal-training img{
   width: 100%;
   height:auto;
-  margin-top:7rem;
+  margin-top:10rem;
 }
 
 .team-title{
@@ -162,7 +162,6 @@ text-decoration: underline;
 
 .meet-team  img{
   margin:5rem 0 5rem 0;
-  border-radius: 50% 20% / 10% 40%
 }
 
 .meet-team p {
@@ -172,6 +171,10 @@ text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
   color: white;
 
+}
+
+.nutrition-img, nutrition-title{
+  margin-top: 7rem;
 }
 
 /*media */
