@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
+  overflow-x: hidden;
 }
 
 html {
@@ -117,6 +119,10 @@ text-decoration: underline;
 
 }
 
+.offers-section p{
+  color:black;
+}
+
 .card-body{
   height: 14rem;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
@@ -177,6 +183,11 @@ text-decoration: underline;
   margin: 10rem 0 10rem 0;
 }
 
+.nutrition-title p {
+  line-height: 1.9rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 /* .parallax */
 .parallax {
@@ -198,11 +209,15 @@ text-decoration: underline;
   border: 1px solid black;
   border-radius:10px;
 }
+p{
+  color: white;
+}
 
 
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:800);
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
 .snip1214 {
   font-family: 'Raleway', Arial, sans-serif;
   color: #000000;
@@ -211,6 +226,7 @@ text-decoration: underline;
   width: 100%;
   max-width: 1000px;
   margin: 10rem 2rem;
+  background-color: black;
   
 }
 .snip1214 .plan {
@@ -326,6 +342,7 @@ width: auto;
 }
 
 /* footer Css */
+
 .context-dark, .bg-gray-dark, .bg-primary {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -375,7 +392,9 @@ ul, ol {
   visibility: hidden;
   transition: .22s ease;
 }
-
+footer{
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
 
 @media only screen and (max-width: 767px) {
   .snip1214 .plan {
