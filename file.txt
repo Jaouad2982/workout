@@ -1,8 +1,0 @@
-    <!-- logo's website + contact +  BJJ + Judo +  Yoga + benefits of working out on your body -->
-    <!-- Jumbotron with a picture in the center to It could be a  -->
-    first section 
-    history of both sports
-    second section
-    some of the techniques in both sports
-    third section 
-    
